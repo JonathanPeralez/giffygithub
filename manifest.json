@@ -7,7 +7,7 @@
   },
   "manifest_version": 2,
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["background.js", "popup.js", "jquery.js"],
     "persistent": false
   },
   "permissions": ["storage", "activeTab", "declarativeContent"]
