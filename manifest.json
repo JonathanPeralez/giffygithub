@@ -1,0 +1,14 @@
+{
+  "name": "Giffy Github",
+  "version": "1.0",
+  "description": "Stop using boring pull request messages!",
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["storage", "activeTab", "declarativeContent"]
+}
