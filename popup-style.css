@@ -1,5 +1,44 @@
 body {
-  height: 500px;
-  width: 500px;
-  background-color: blue;
+  margin: 0;
+  padding: 0;
+  height: 450px;
+  width: 320px;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  align-items: center;
+  text-align: center;
+}
+
+#img_container{
+  text-align: center;
+  height: 80%;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  align-items: center;
+
+}
+
+#btn_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+  
+}
+.btn_style{
+  margin: 25px 0px;
+  height: 50px;
+}
+
+#btn_rgl {
+  text-align: center;
+}
+#btn_search {
+  text-align: center;
 }
