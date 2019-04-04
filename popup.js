@@ -1,4 +1,3 @@
-$(document).on('ready', function() {
-    console.log('run run run');
-
-});
+$(document).ready(function hi() {
+  console.log('hi');
+})
